@@ -16,6 +16,7 @@ li{
 body{
     font-family: var(--main-font,--secoundary-font);
     color: #212121;
+    background-color: #FFFFFF;
 }
 
 *{
