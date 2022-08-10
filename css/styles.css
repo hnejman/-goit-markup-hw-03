@@ -3,6 +3,7 @@
     --secoundary-font: font-family: 'Raleway', sans-serif;
     --main-color: #2196F3; 
     --secoundary-color:  #757575;
+    --main-width: max-width: 1170px;
 }
 
 a{
@@ -16,7 +17,7 @@ li{
 body{
     font-family: var(--main-font,--secoundary-font);
     color: #212121;
-    background-color: #FFFFFF;
+    background-color: #FFF;
 }
 
 *{
@@ -26,16 +27,36 @@ body{
 
 ul{
     display: flex;
+    justify-content: space-between;
 }
+
+
+
 
 /* =======MENU====== */
 
 menu{
     display: flex;
+    justify-content: center;
 }
+
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+}
+
 
 .navigation{
     display: flex;
+    width: 254px;
+    
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .navigation--logo{
@@ -84,15 +105,31 @@ color: var(--secoundary-color);
 
 /* =======MAIN====== */
 
+.header-container{
+    background-color: #2F303A;
+    text-align: center;
+    height: 600px;
+    padding-top: 200px;
+}
+
 .main-header{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
-    background-color: #2F303A;
+    text-transform: uppercase; 
     color: #ffffff;
+}
+
+.modal-btn{
+    width: 200px;
+    height: 50px;
+    background-color: var(--main-color);
+    color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
 }
 
 .par-title{
@@ -111,12 +148,15 @@ color: var(--secoundary-color);
     color: var(--secoundary-color);
 }
 
+.team{
+    background-color: #F5F4FA;
+}
+
 .team li{
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
-
     letter-spacing: 0.03em;
     color: #757575;
 }
