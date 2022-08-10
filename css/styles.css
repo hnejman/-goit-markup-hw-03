@@ -44,19 +44,21 @@ menu{
     display: flex;
     justify-content: space-between;
     width: 1170px;
+    height: 80px;
+    align-items: center;
 }
 
 
 .navigation{
-    display: flex;
-    width: 254px;
-    
+    display: flex; 
+    align-items: center;
 }
 
 .navigation ul{
     display: flex;
     justify-content: space-between;
-
+    width: 254px;
+    padding-left: 76px;
 }
 
 .navigation--logo{
@@ -76,7 +78,9 @@ menu{
     font-weight: 500;
     font-size: 14px;
     line-height: 1,172;
+    line-height: 16px;
     letter-spacing: 0.02em;
+    color: #212121;
 }
 .navigation--list-link:hover,
 .navigation--list-link:focus{
@@ -119,7 +123,7 @@ color: var(--secoundary-color);
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase; 
-    color: #ffffff;
+    color: #fff;
 }
 
 .modal-btn{
@@ -132,12 +136,22 @@ color: var(--secoundary-color);
     border: none;
 }
 
+.pars{
+    max-width: 1170px;
+    text-align: center;
+}
+
+.pars ul:nth-child(n+2){
+    margin-left:30px;
+}
+
 .par-title{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: left;
 }
 
 .par{
@@ -146,6 +160,7 @@ color: var(--secoundary-color);
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secoundary-color);
+    text-align: justify;
 }
 
 .team{
@@ -188,7 +203,7 @@ h2{
 }
 .port-btn:hover,
 .port-btn:focus{
-    color: #FFFFFF;
+    color: #FFF;
     background-color: var(--main-color);
 }
 
@@ -219,7 +234,7 @@ footer{
 }
 
  footer > .navigation--logo {
-    color: #ffffff;
+    color: #fff;
  }
  
  footer > .address{
