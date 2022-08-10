@@ -24,7 +24,19 @@ body{
     margin: 0;
 }
 
+ul{
+    display: flex;
+}
+
 /* =======MENU====== */
+
+menu{
+    display: flex;
+}
+
+.navigation{
+    display: flex;
+}
 
 .navigation--logo{
     font-family: var(--secoundary-font);
