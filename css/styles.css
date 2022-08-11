@@ -197,12 +197,13 @@ color: var(--secoundary-color);
 
 .team-list{
     width: 1170px;
-    padding-bottom: 94px;
     flex-wrap: wrap;
 }
 
-.team-list li:nth-child(n+2){
-    margin-left: 30px;
+.team-list li:nth-child(1),
+.team-list li:nth-child(2),
+.team-list li:nth-child(3){
+    margin-right: 30px;
 }
 
 .team-list li{
@@ -213,14 +214,22 @@ color: var(--secoundary-color);
     letter-spacing: 0.03em;
     color: #757575;
     text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    width: 270px;
+    height: 368px;
+    padding-bottom: 30px;
+    margin-bottom: 94px;
 }
 
 .team-name{
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
     color: #212121;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 h2{
@@ -278,6 +287,7 @@ footer{
 
 .footer{
     width: 1170px;
+    margin-top: 60px;
 }
 
 .footer > .navigation--logo {
@@ -286,6 +296,15 @@ footer{
  
 .footer > .address{
     color: rgba(255, 255, 255, 0.6);
+    margin-top: 20px;
+    margin-bottom: 60px;
  }
+
+ .foooter .address--link{
+    margin-top: 9px;
+
+    /*nie dziala*/
+ }
+
 
 /* ===END=FOOTER==== */
