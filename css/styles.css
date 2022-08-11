@@ -181,8 +181,9 @@ color: var(--secoundary-color);
     flex-wrap: wrap;   
 }
 
-.activities-list li:nth-child(n+2){
-    margin-left: 30px;
+.activities-list li:nth-child(1),
+.activities-list li:nth-child(2){
+    margin-right: 30px;
 }
 
 .team{
