@@ -173,12 +173,12 @@ color: var(--secoundary-color);
 .activities-container{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .activities-list{
     width: 1170px;
-    margin-bottom: 94px;   
+    margin-bottom: 94px;
+    flex-wrap: wrap;   
 }
 
 .activities-list li:nth-child(n+2){
@@ -197,13 +197,14 @@ color: var(--secoundary-color);
 .team-list{
     width: 1170px;
     padding-bottom: 94px;
+    flex-wrap: wrap;
 }
 
 .team-list li:nth-child(n+2){
     margin-left: 30px;
 }
 
-.team li{
+.team-list li{
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
