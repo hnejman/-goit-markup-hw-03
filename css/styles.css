@@ -102,8 +102,8 @@ color: var(--secoundary-color);
     color: var(--main-color);
 }
 
-.address--link:nth-child(n+2){
-    margin-left: 50px;
+.navigation-address--link{
+    margin-right: 50px;
 }
 
 /* ===END=MENU====== */
