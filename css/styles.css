@@ -3,7 +3,7 @@
     --secoundary-font: font-family: 'Raleway', sans-serif;
     --main-color: #2196F3; 
     --secoundary-color:  #757575;
-    --main-width: max-width: 1170px;
+    --main-width: width: 1170px;
 }
 
 a{
@@ -149,7 +149,7 @@ color: var(--secoundary-color);
 }
 
 .par-list{
-    max-width: 1170px;
+    width: 1170px;
 }
 
 .par-title{
@@ -170,8 +170,37 @@ color: var(--secoundary-color);
     text-align: justify;
 }
 
+.activities-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.activities-list{
+    width: 1170px;
+    margin-bottom: 94px;   
+}
+
+.activities-list li:nth-child(n+2){
+    margin-left: 30px;
+}
+
 .team{
     background-color: #F5F4FA;
+}
+
+.team-container{
+    display:flex;
+    justify-content: center;
+}
+
+.team-list{
+    width: 1170px;
+    padding-bottom: 94px;
+}
+
+.team-list li:nth-child(n+2){
+    margin-left: 30px;
 }
 
 .team li{
@@ -181,6 +210,7 @@ color: var(--secoundary-color);
     /* identical to box height */
     letter-spacing: 0.03em;
     color: #757575;
+    text-align: center;
 }
 
 .team-name{
@@ -197,6 +227,8 @@ h2{
     line-height: 1.667;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    padding-top:94px;
 }
 
 .port-btn{
