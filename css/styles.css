@@ -30,12 +30,17 @@ ul{
     justify-content: space-between;
 }
 
+.container{
+    display:flex;
+    justify-content: center;
+}
 
 /* =======MENU====== */
 
 menu{
     display: flex;
     justify-content: center;
+    border: 1px solid #ECECEC;
 }
 
 .menu-container{
@@ -170,11 +175,6 @@ color: var(--secoundary-color);
     text-align: justify;
 }
 
-.activities-container{
-    display: flex;
-    justify-content: center;
-}
-
 .activities-list{
     width: 1170px;
     margin-bottom: 94px;
@@ -188,11 +188,6 @@ color: var(--secoundary-color);
 
 .team{
     background-color: #F5F4FA;
-}
-
-.team-container{
-    display:flex;
-    justify-content: center;
 }
 
 .team-list{
@@ -240,11 +235,6 @@ h2{
     letter-spacing: 0.03em;
     margin-bottom: 50px;
     padding-top:94px;
-}
-
-.filters-container{
-    display: flex;
-    justify-content: center;
 }
 
 .filters{
