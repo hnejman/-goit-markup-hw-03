@@ -30,11 +30,17 @@ ul{
     justify-content: space-between;
 }
 
+.container{
+    display:flex;
+    justify-content: center;
+}
+
 /* =======MENU====== */
 
 menu{
     display: flex;
     justify-content: center;
+    border: 1px solid #ECECEC;
 }
 
 .menu-container{
@@ -52,10 +58,9 @@ menu{
 }
 
 .navigation ul{
-    display: flex;
     justify-content: space-between;
     width: 254px;
-    padding-left: 76px;
+    margin-left: 76px;
 }
 
 .navigation--logo{
@@ -170,11 +175,6 @@ color: var(--secoundary-color);
     text-align: justify;
 }
 
-.activities-container{
-    display: flex;
-    justify-content: center;
-}
-
 .activities-list{
     width: 1170px;
     margin-bottom: 94px;
@@ -190,19 +190,15 @@ color: var(--secoundary-color);
     background-color: #F5F4FA;
 }
 
-.team-container{
-    display:flex;
-    justify-content: center;
-}
-
 .team-list{
     width: 1170px;
-    padding-bottom: 94px;
     flex-wrap: wrap;
 }
 
-.team-list li:nth-child(n+2){
-    margin-left: 30px;
+.team-list li:nth-child(1),
+.team-list li:nth-child(2),
+.team-list li:nth-child(3){
+    margin-right: 30px;
 }
 
 .team-list li{
@@ -213,14 +209,22 @@ color: var(--secoundary-color);
     letter-spacing: 0.03em;
     color: #757575;
     text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    width: 270px;
+    height: 368px;
+    padding-bottom: 30px;
+    margin-bottom: 94px;
 }
 
 .team-name{
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
     color: #212121;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 h2{
@@ -233,6 +237,12 @@ h2{
     padding-top:94px;
 }
 
+.filters{
+    display: flex;
+    justify-content: space-between;
+    width: 572px;
+}
+
 .port-btn{
     font-weight: 500;
     font-size: 16px;
@@ -241,6 +251,10 @@ h2{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    border-radius: 4px;
+    border: none;
+    width: 93px;
+    height: 38px;
 }
 .port-btn:hover,
 .port-btn:focus{
@@ -248,6 +262,25 @@ h2{
     background-color: var(--main-color);
 }
 
+.subbtns-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 64px;
+}
+
+.subbtns{
+    justify-content: space-between;
+    width: 1170px;
+    flex-wrap: wrap;
+}
+
+.por-subbtn{
+    border: 1px solid #EEEEEE;
+    box-shadow: none;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
 
 .subbtn-label{
     font-weight: 400;
@@ -278,6 +311,7 @@ footer{
 
 .footer{
     width: 1170px;
+    margin-top: 60px;
 }
 
 .footer > .navigation--logo {
@@ -286,6 +320,13 @@ footer{
  
 .footer > .address{
     color: rgba(255, 255, 255, 0.6);
+    margin-top: 20px;
+    margin-bottom: 60px;
  }
+
+ .footer--addr-link{
+    margin-top: 9px;
+ }
+
 
 /* ===END=FOOTER==== */
