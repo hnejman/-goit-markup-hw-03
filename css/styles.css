@@ -35,7 +35,7 @@ ul{
     justify-content: center;
 }
 
-/* =======MENU====== */
+/* =======HEADER====== */
 
 menu{
     display: flex;
@@ -111,7 +111,7 @@ color: var(--secoundary-color);
     margin-right: 50px;
 }
 
-/* ===END=MENU====== */
+/* ===END=HEADER==== */
 
 /* =======MAIN====== */
 
