@@ -51,6 +51,7 @@ header{
     justify-content: space-between;
     width: 254px;
     margin-left: 76px;
+    align-items: center;
 }
 
 .navigation--logo{
@@ -145,6 +146,8 @@ h1{
 }
 
 .par-list{
+    display: flex;
+    justify-content: space-between;
     width: 1170px;
 }
 
@@ -185,6 +188,8 @@ h1{
 }
 
 .team-list{
+    display: flex;
+    justify-content: space-between;
     width: 1170px;
     flex-wrap: wrap;
 }
@@ -235,6 +240,7 @@ h2{
     display: flex;
     justify-content: space-between;
     width: 572px;
+    margin-top: 94px;
 }
 
 .port-btn{
@@ -264,6 +270,7 @@ h2{
 }
 
 .subbtns{
+    display: flex;
     justify-content: space-between;
     width: 1170px;
     flex-wrap: wrap;
@@ -280,7 +287,6 @@ h2{
     font-weight: 400;
     font-size: 18px;
     line-height: 1.88;
-    /* identical to box height, or 188% */
     letter-spacing: 0.03em;
     color: #212121;
 }
@@ -289,7 +295,6 @@ h2{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
-    /* identical to box height, or 188% */
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -301,7 +306,7 @@ footer{
     background-color: #2F303A;
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    padding-top: 60px;
 }
 
 .footer-container{
@@ -309,30 +314,28 @@ footer{
     justify-content: space-between;
 }
 
-.footer-container > .navigation--logo {
+.footer-container .navigation--logo {
     color: #fff;
  }
-
- address{
-    font-style: normal;
-    font-family: var(--main-font);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1,423;
-    letter-spacing: 0.02em;
-    color: var(--secoundary-color);
-    align-items: center;
-}
  
-.footer ul{
+footer address{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-top:20px;
+ }
+
+footer ul{
     color: rgba(255, 255, 255, 0.6);
-    margin-top: 20px;
     margin-bottom: 60px;
  }
 
  .footer--addr-link{
     margin-top: 9px;
  }
-
 
 /* ===END=FOOTER==== */
