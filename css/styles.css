@@ -255,6 +255,7 @@ h2{
     border: none;
     width: 93px;
     height: 38px;
+    cursor: pointer;
 }
 .port-btn:hover,
 .port-btn:focus{
@@ -262,41 +263,47 @@ h2{
     background-color: var(--main-color);
 }
 
-.subbtns-container{
+.cards-container{
     display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 64px;
 }
 
-.subbtns{
+.cards-list{
     display: flex;
     justify-content: space-between;
     width: 1170px;
     flex-wrap: wrap;
+    font-family: var(--main-font);
 }
 
-.por-subbtn{
+.por-card{
     border: 1px solid #EEEEEE;
     box-shadow: none;
     background-color: #fff;
     margin-bottom: 30px;
 }
 
-.subbtn-label{
-    font-weight: 400;
+.card-label{
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
+    line-height: 2;
+    letter-spacing: 0.06em;
     color: #212121;
+    margin-left: 24px;
+    margin-top:20px;
+    margin-bottom: 4px;
 }
 
-.subbtn-sublabel{
+.card-sublabel{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.88;
+    line-height: 1,88;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-left: 24px;
+    margin-bottom: 20px;
 }
 
 /* ===END=MAIN====== */
