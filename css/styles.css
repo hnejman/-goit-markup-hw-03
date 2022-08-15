@@ -37,20 +37,19 @@ ul{
 
 /* =======HEADER====== */
 
-menu{
+header{
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 1px solid #ECECEC;
 }
 
-.menu-container{
+.header-container{
     display: flex;
-    justify-content: space-between;
     width: 1170px;
     height: 80px;
-    align-items: center;
+    justify-content: space-between;
 }
-
 
 .navigation{
     display: flex; 
@@ -97,6 +96,7 @@ menu{
     line-height: 1,423;
     letter-spacing: 0.02em;
     color: var(--secoundary-color);
+    align-items: center;
 }
 
 .address--link{
@@ -115,7 +115,7 @@ color: var(--secoundary-color);
 
 /* =======MAIN====== */
 
-.header-container{
+.slogan-container{
     background-color: #2F303A;
     text-align: center;
     height: 600px;
