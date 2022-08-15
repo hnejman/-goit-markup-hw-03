@@ -44,10 +44,6 @@ header{
     width: 1170px;
     height: 80px;
     justify-content: space-between;
-}
-
-.navigation{
-    display: flex; 
     align-items: center;
 }
 
@@ -88,7 +84,11 @@ header{
     color: var(--main-color);
 }
 
-
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    width: 295px;
+}
 
 .address--link{
 color: var(--secoundary-color);
@@ -168,6 +168,8 @@ h1{
 }
 
 .activities-list{
+    display: flex;
+    justify-content: center;
     width: 1170px;
     margin-bottom: 94px;
     flex-wrap: wrap;   
