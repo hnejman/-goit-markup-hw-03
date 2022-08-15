@@ -25,11 +25,6 @@ body{
     margin: 0;
 }
 
-ul{
-    display: flex;
-    justify-content: space-between;
-}
-
 .container{
     display:flex;
     justify-content: center;
@@ -56,7 +51,7 @@ header{
     align-items: center;
 }
 
-.navigation ul{
+.navigation--list{
     justify-content: space-between;
     width: 254px;
     margin-left: 76px;
@@ -71,8 +66,13 @@ header{
     color: #000000;
 }
 
-.navigation--logo > span{
+.navigation--logo  span{
     color: var(--main-color);
+}
+
+.navigation--list{
+    display: flex;
+    justify-content: space-between;
 }
 
 .navigation--list-link{
@@ -88,16 +88,7 @@ header{
     color: var(--main-color);
 }
 
-.address{
-    font-style: normal;
-    font-family: var(--main-font);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1,423;
-    letter-spacing: 0.02em;
-    color: var(--secoundary-color);
-    align-items: center;
-}
+
 
 .address--link{
 color: var(--secoundary-color);
@@ -158,6 +149,7 @@ h1{
 }
 
 .par-title{
+    color:#000;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
@@ -307,18 +299,30 @@ footer{
     background-color: #2F303A;
     display: flex;
     justify-content: center;
-}
-
-.footer{
-    width: 1170px;
     margin-top: 60px;
 }
 
-.footer > .navigation--logo {
+.footer-container{
+    width: 1170px;
+    justify-content: space-between;
+}
+
+.footer-container > .navigation--logo {
     color: #fff;
  }
+
+ address{
+    font-style: normal;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,423;
+    letter-spacing: 0.02em;
+    color: var(--secoundary-color);
+    align-items: center;
+}
  
-.footer > .address{
+.footer ul{
     color: rgba(255, 255, 255, 0.6);
     margin-top: 20px;
     margin-bottom: 60px;
