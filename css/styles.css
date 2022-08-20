@@ -267,14 +267,39 @@ h2{
     color: #212121;
     border-radius: 4px;
     border: none;
-    width: 93px;
     height: 38px;
     cursor: pointer;
+    margin-top: 94px;
 }
 .port-btn:hover,
 .port-btn:focus{
     color: #FFF;
     background-color: var(--main-color);
+}
+
+.filtr1{
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.filtr2{
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.filtr3{
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.filtr4{
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.filtr5{
+    padding-left: 22px;
+    padding-right: 22px;
 }
 
 .cards-container{
